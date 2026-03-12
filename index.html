@@ -22,28 +22,35 @@
     <header>
       <nav class="navbar">
         <a href="#" class="nav-logo">DK<span>.</span></a>
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#certificates">Certificates</a></li>
-          <li><a href="#contact">Contact</a></li>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about" class="nav-item">About</a></li>
+          <li><a href="#skills" class="nav-item">Skills</a></li>
+          <li><a href="#certificates" class="nav-item">Certificates</a></li>
+          <li><a href="#contact" class="nav-item">Contact</a></li>
           <li>
             <a
               href="https://www.dicoding.com/users/dzaky_khairullahpw1l"
               target="_blank"
-              class="nav-dicoding"
+              class="nav-dicoding nav-item"
             >
               Dicoding
             </a>
           </li>
         </ul>
-        <button
-          class="theme-toggle"
-          id="themeToggle"
-          aria-label="Toggle dark/light mode"
-        >
-          <i class="fas fa-moon" id="themeIcon"></i>
-        </button>
+        <div class="nav-actions">
+          <button
+            class="theme-toggle"
+            id="themeToggle"
+            aria-label="Toggle dark/light mode"
+          >
+            <i class="fas fa-moon" id="themeIcon"></i>
+          </button>
+          <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
       </nav>
     </header>
 
@@ -52,7 +59,7 @@
       <section class="hero" id="home">
         <div class="hero-content">
           <p class="hero-label">👋 Hey there, I'm</p>
-          <h1 class="hero-name">Dzaky<br /><span>Khairullah</span> <br />PN</h1>
+          <h1 class="hero-name">Dzaky<br /><span>Khairullah PN</span></h1>
           <p class="hero-desc">
             A beginner fullstack developer from Bogor, Indonesia — building my
             path one line of code at a time.
