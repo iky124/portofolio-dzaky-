@@ -651,16 +651,15 @@ footer {
   .cert-verify {
     align-self: flex-start;
   }
-
   .cert-info {
     width: 100%;
-  
-}
-.nav-links {
-  gap: 1rem;
-}
+  }
 
-h2 {
-  font-size: 2rem;
-}
+  .nav-links {
+    gap: 1rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
 }
